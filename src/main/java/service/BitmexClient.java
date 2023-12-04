@@ -67,7 +67,6 @@ public class BitmexClient {
         }
     }
 
-
     public void cancelOrder(String orderId) throws NoSuchAlgorithmException, InvalidKeyException {
         String httpMethod = "DELETE";
         String data = "{\"orderID\": [\"7862a816-38cf-42d5-bb89-7a74a58f03f4\", \"5a00a858-3375-43b9-a53b-bd3c59eb6d9a\"]}";
@@ -84,7 +83,6 @@ public class BitmexClient {
             throw new RuntimeException(e);
         }
     }
-
 
     private AuthenticationHeaders getAuthenticationHeaders(String httpMethod, String data, String path) throws NoSuchAlgorithmException, InvalidKeyException {
         long expire = System.currentTimeMillis() / 1000 + EXPIRES_DELAY; // определяет время действия подписи
