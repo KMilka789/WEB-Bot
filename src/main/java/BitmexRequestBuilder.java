@@ -47,7 +47,6 @@ import java.security.NoSuchAlgorithmException;
 //}
 public class BitmexRequestBuilder {
 
-
     public static String authenticate(String apiKey, String apiSecret, long expires) {
         try {
             String message = "GET/realtime" + expires; // Формируем сообщение для подписи

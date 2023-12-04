@@ -14,6 +14,4 @@ public class BitmexClientFactory {
 
         return new BitmexClient(apiKey, apiSecretKey, Endpoints.BASE_TEST_URL);
     }
-
-
 }

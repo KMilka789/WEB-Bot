@@ -60,6 +60,5 @@ public class App {
         } catch (URISyntaxException e) {
             e.printStackTrace();
         }
-
     }
 }
