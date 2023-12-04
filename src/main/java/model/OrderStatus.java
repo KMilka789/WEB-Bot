@@ -1,4 +1,4 @@
-package Karpova.model;
+package model;
 
 public enum OrderStatus {
     WORKING,

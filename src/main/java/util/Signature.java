@@ -1,4 +1,4 @@
-package Karpova.util;
+package util;
 
 import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;
